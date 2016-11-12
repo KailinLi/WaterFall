@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE4C68671DD719A200F7F26D /* DemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4C68661DD719A200F7F26D /* DemoTableViewCell.m */; };
+		DE4C68691DD71DA400F7F26D /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE4C68681DD71DA400F7F26D /* Data.plist */; };
 		DEAB69181DD4906900707909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB69171DD4906900707909 /* main.m */; };
 		DEAB691B1DD4906900707909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB691A1DD4906900707909 /* AppDelegate.m */; };
-		DEAB691E1DD4906900707909 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB691D1DD4906900707909 /* ViewController.m */; };
-		DEAB69211DD4906900707909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAB691F1DD4906900707909 /* Main.storyboard */; };
 		DEAB69231DD4906900707909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB69221DD4906900707909 /* Assets.xcassets */; };
-		DEAB69261DD4906900707909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAB69241DD4906900707909 /* LaunchScreen.storyboard */; };
+		DEAB692E1DD4915B00707909 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAB692D1DD4915B00707909 /* Launch Screen.storyboard */; };
+		DEAB695D1DD4AFF000707909 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB695C1DD4AFF000707909 /* MainViewController.m */; };
+		DEAB69601DD4B14200707909 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB695F1DD4B14200707909 /* Data.m */; };
+		DEAB69631DD4B60200707909 /* ShowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB69621DD4B60200707909 /* ShowTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE4C68651DD719A200F7F26D /* DemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewCell.h; sourceTree = "<group>"; };
+		DE4C68661DD719A200F7F26D /* DemoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewCell.m; sourceTree = "<group>"; };
+		DE4C68681DD71DA400F7F26D /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
 		DEAB69131DD4906900707909 /* WaterFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAB69171DD4906900707909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEAB69191DD4906900707909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEAB691A1DD4906900707909 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DEAB691C1DD4906900707909 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DEAB691D1DD4906900707909 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DEAB69201DD4906900707909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEAB69221DD4906900707909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DEAB69251DD4906900707909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEAB69271DD4906900707909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAB692D1DD4915B00707909 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DEAB695B1DD4AFF000707909 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DEAB695C1DD4AFF000707909 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DEAB695E1DD4B14200707909 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		DEAB695F1DD4B14200707909 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		DEAB69611DD4B60200707909 /* ShowTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTableViewCell.h; sourceTree = "<group>"; };
+		DEAB69621DD4B60200707909 /* ShowTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +69,19 @@
 			children = (
 				DEAB69191DD4906900707909 /* AppDelegate.h */,
 				DEAB691A1DD4906900707909 /* AppDelegate.m */,
-				DEAB691C1DD4906900707909 /* ViewController.h */,
-				DEAB691D1DD4906900707909 /* ViewController.m */,
-				DEAB691F1DD4906900707909 /* Main.storyboard */,
 				DEAB69221DD4906900707909 /* Assets.xcassets */,
-				DEAB69241DD4906900707909 /* LaunchScreen.storyboard */,
 				DEAB69271DD4906900707909 /* Info.plist */,
 				DEAB69161DD4906900707909 /* Supporting Files */,
+				DEAB692D1DD4915B00707909 /* Launch Screen.storyboard */,
+				DEAB695B1DD4AFF000707909 /* MainViewController.h */,
+				DEAB695C1DD4AFF000707909 /* MainViewController.m */,
+				DEAB695E1DD4B14200707909 /* Data.h */,
+				DEAB695F1DD4B14200707909 /* Data.m */,
+				DEAB69611DD4B60200707909 /* ShowTableViewCell.h */,
+				DEAB69621DD4B60200707909 /* ShowTableViewCell.m */,
+				DE4C68651DD719A200F7F26D /* DemoTableViewCell.h */,
+				DE4C68661DD719A200F7F26D /* DemoTableViewCell.m */,
+				DE4C68681DD71DA400F7F26D /* Data.plist */,
 			);
 			path = WaterFall;
 			sourceTree = "<group>";
@@ -138,9 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEAB69261DD4906900707909 /* LaunchScreen.storyboard in Resources */,
+				DE4C68691DD71DA400F7F26D /* Data.plist in Resources */,
+				DEAB692E1DD4915B00707909 /* Launch Screen.storyboard in Resources */,
 				DEAB69231DD4906900707909 /* Assets.xcassets in Resources */,
-				DEAB69211DD4906900707909 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,32 +166,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEAB691E1DD4906900707909 /* ViewController.m in Sources */,
 				DEAB691B1DD4906900707909 /* AppDelegate.m in Sources */,
+				DEAB695D1DD4AFF000707909 /* MainViewController.m in Sources */,
+				DE4C68671DD719A200F7F26D /* DemoTableViewCell.m in Sources */,
 				DEAB69181DD4906900707909 /* main.m in Sources */,
+				DEAB69601DD4B14200707909 /* Data.m in Sources */,
+				DEAB69631DD4B60200707909 /* ShowTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DEAB691F1DD4906900707909 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DEAB69201DD4906900707909 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DEAB69241DD4906900707909 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DEAB69251DD4906900707909 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DEAB69281DD4906900707909 /* Debug */ = {
@@ -310,6 +309,7 @@
 				DEAB692C1DD4906900707909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
