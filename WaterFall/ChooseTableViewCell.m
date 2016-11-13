@@ -47,6 +47,8 @@
             location.x = 20 + index * size.width * 0.5;
             location.y = -5;
         }
+        
+        //
         ChooseUIView *icon = [[ChooseUIView alloc] initWithFrame:CGRectMake(location.x, location.y, size.height *   0.51, size.height * 0.51)];
         icon.backgroundColor = [UIColor whiteColor];
         icon.title = self.titleData[index];

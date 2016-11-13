@@ -52,7 +52,7 @@
     searchBar.layer.cornerRadius = 15;
     searchBar.layer.masksToBounds = YES;
     [searchBar.layer setBorderWidth:8];
-    [searchBar.layer setBorderColor:[UIColor whiteColor].CGColor];  //设置边框为白色
+    [searchBar.layer setBorderColor:[UIColor whiteColor].CGColor];
     
     searchBar.placeholder = @"搜索商家、品类或商圈";
     searchBar.showsCancelButton = NO;
