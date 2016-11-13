@@ -9,12 +9,8 @@
 #import "DemoTableViewCell.h"
 
 @implementation DemoTableViewCell {
-    UILabel *title;
-    UILabel *detail;
-    UILabel *price;
-    UILabel *hadSaled;
-    UILabel *distance;
-    UIImageView *imageName;
+    
+
 }
 
 
@@ -32,25 +28,9 @@
 - (id) initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        CGSize size = self.contentView.bounds.size;
         
-        title = [[UILabel alloc]initWithFrame:CGRectMake(60, 0, 50, 20)];
-        [self.contentView addSubview:title];
-        
-        detail = [[UILabel alloc]initWithFrame:CGRectMake(60, 20, 50, 20)];
-        [self.contentView addSubview:detail];
-        
-        price = [[UILabel alloc]initWithFrame:CGRectMake(120, 0, 50, 20)];
-        [self.contentView addSubview:price];
-        
-        hadSaled = [[UILabel alloc]initWithFrame:CGRectMake(60, 40, 50, 20)];
-        [self.contentView addSubview:hadSaled];
-        
-        distance = [[UILabel alloc]initWithFrame:CGRectMake(120, 20, 50, 20)];
-        [self.contentView addSubview:distance];
-        
-        imageName = [[UIImageView alloc]initWithFrame:CGRectMake(150, 0, 60, 60)];
-        [self.contentView addSubview:imageName];
+//        imageName = [[UIImageView alloc]initWithFrame:CGRectMake(150, 0, 60, 60)];
+//        [self.contentView addSubview:imageName];
         
     }
     return self;
@@ -58,14 +38,31 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
+    CGSize size = self.contentView.bounds.size;
     
-    title.text = [self.data title];
-    detail.text = [self.data detail];
-    price.text = [self.data price];
-    hadSaled.text = [self.data hadSaled];
-    distance.text = [self.data distance];
-    [imageName setImage:[UIImage imageNamed:[self.data imageName]]];
+    for (NSUInteger index = 0; index < self.titleData.count; index++) {
+        CGPoint location;
+        if (index >= 4) {
+            location.x = 20 + (index - 4) * 90;
+            location.y = 55;
+        }
+        else {
+            location.x = 20 + index * 90;
+            location.y = -15;
+        }
+        IconUIView *icon = [[IconUIView alloc] initWithFrame:CGRectMake(location.x, location.y, 60, 60)];
+        icon.backgroundColor = [UIColor whiteColor];
+        icon.title = self.titleData[index];
+        icon.image = self.imageData[index];
+        [self.contentView addSubview:icon];
+    }
+    
     
 }
+
+- (void) setFrame:(CGRect)frame {
+    //
+}
+
 
 @end

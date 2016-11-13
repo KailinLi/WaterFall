@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		DE4C68671DD719A200F7F26D /* DemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4C68661DD719A200F7F26D /* DemoTableViewCell.m */; };
 		DE4C68691DD71DA400F7F26D /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE4C68681DD71DA400F7F26D /* Data.plist */; };
+		DE4C68751DD74B7E00F7F26D /* IconUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4C68741DD74B7E00F7F26D /* IconUIView.m */; };
+		DE4C68781DD7902D00F7F26D /* ADTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4C68771DD7902D00F7F26D /* ADTableViewCell.m */; };
+		DE4C687B1DD7906100F7F26D /* ADUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4C687A1DD7906100F7F26D /* ADUIView.m */; };
+		DE4C687E1DD795EB00F7F26D /* ChooseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4C687D1DD795EB00F7F26D /* ChooseTableViewCell.m */; };
+		DE4C68811DD804E500F7F26D /* ChooseUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4C68801DD804E500F7F26D /* ChooseUIView.m */; };
 		DEAB69181DD4906900707909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB69171DD4906900707909 /* main.m */; };
 		DEAB691B1DD4906900707909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB691A1DD4906900707909 /* AppDelegate.m */; };
 		DEAB69231DD4906900707909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB69221DD4906900707909 /* Assets.xcassets */; };
@@ -22,6 +27,16 @@
 		DE4C68651DD719A200F7F26D /* DemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewCell.h; sourceTree = "<group>"; };
 		DE4C68661DD719A200F7F26D /* DemoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewCell.m; sourceTree = "<group>"; };
 		DE4C68681DD71DA400F7F26D /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		DE4C68731DD74B7E00F7F26D /* IconUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconUIView.h; sourceTree = "<group>"; };
+		DE4C68741DD74B7E00F7F26D /* IconUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconUIView.m; sourceTree = "<group>"; };
+		DE4C68761DD7902D00F7F26D /* ADTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTableViewCell.h; sourceTree = "<group>"; };
+		DE4C68771DD7902D00F7F26D /* ADTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTableViewCell.m; sourceTree = "<group>"; };
+		DE4C68791DD7906100F7F26D /* ADUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADUIView.h; sourceTree = "<group>"; };
+		DE4C687A1DD7906100F7F26D /* ADUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADUIView.m; sourceTree = "<group>"; };
+		DE4C687C1DD795EB00F7F26D /* ChooseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseTableViewCell.h; sourceTree = "<group>"; };
+		DE4C687D1DD795EB00F7F26D /* ChooseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseTableViewCell.m; sourceTree = "<group>"; };
+		DE4C687F1DD804E500F7F26D /* ChooseUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseUIView.h; sourceTree = "<group>"; };
+		DE4C68801DD804E500F7F26D /* ChooseUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseUIView.m; sourceTree = "<group>"; };
 		DEAB69131DD4906900707909 /* WaterFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAB69171DD4906900707909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEAB69191DD4906900707909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +97,16 @@
 				DE4C68651DD719A200F7F26D /* DemoTableViewCell.h */,
 				DE4C68661DD719A200F7F26D /* DemoTableViewCell.m */,
 				DE4C68681DD71DA400F7F26D /* Data.plist */,
+				DE4C68731DD74B7E00F7F26D /* IconUIView.h */,
+				DE4C68741DD74B7E00F7F26D /* IconUIView.m */,
+				DE4C68761DD7902D00F7F26D /* ADTableViewCell.h */,
+				DE4C68771DD7902D00F7F26D /* ADTableViewCell.m */,
+				DE4C68791DD7906100F7F26D /* ADUIView.h */,
+				DE4C687A1DD7906100F7F26D /* ADUIView.m */,
+				DE4C687C1DD795EB00F7F26D /* ChooseTableViewCell.h */,
+				DE4C687D1DD795EB00F7F26D /* ChooseTableViewCell.m */,
+				DE4C687F1DD804E500F7F26D /* ChooseUIView.h */,
+				DE4C68801DD804E500F7F26D /* ChooseUIView.m */,
 			);
 			path = WaterFall;
 			sourceTree = "<group>";
@@ -168,9 +193,14 @@
 			files = (
 				DEAB691B1DD4906900707909 /* AppDelegate.m in Sources */,
 				DEAB695D1DD4AFF000707909 /* MainViewController.m in Sources */,
+				DE4C68751DD74B7E00F7F26D /* IconUIView.m in Sources */,
+				DE4C68811DD804E500F7F26D /* ChooseUIView.m in Sources */,
 				DE4C68671DD719A200F7F26D /* DemoTableViewCell.m in Sources */,
+				DE4C68781DD7902D00F7F26D /* ADTableViewCell.m in Sources */,
 				DEAB69181DD4906900707909 /* main.m in Sources */,
 				DEAB69601DD4B14200707909 /* Data.m in Sources */,
+				DE4C687B1DD7906100F7F26D /* ADUIView.m in Sources */,
+				DE4C687E1DD795EB00F7F26D /* ChooseTableViewCell.m in Sources */,
 				DEAB69631DD4B60200707909 /* ShowTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

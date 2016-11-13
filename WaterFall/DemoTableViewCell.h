@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Data.h"
+#import "IconUIView.h"
 
 @interface DemoTableViewCell : UITableViewCell
 
-@property (nonatomic, strong) Data *data;
+@property (nonatomic, strong) NSMutableArray *titleData;
+@property (nonatomic, strong) NSMutableArray *imageData;
 
 @end

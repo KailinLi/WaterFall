@@ -34,22 +34,36 @@
     if (self) {
         CGSize size = self.contentView.bounds.size;
         
-        title = [[UILabel alloc]initWithFrame:CGRectMake(60, 0, 50, 20)];
+        title = [[UILabel alloc]initWithFrame:CGRectMake(70, 5, 150, 25)];
         [self.contentView addSubview:title];
+        title.font = [UIFont fontWithName:@"Arial" size:17];
+        //title.textAlignment = NSTextAlignmentCenter;
         
-        detail = [[UILabel alloc]initWithFrame:CGRectMake(60, 20, 50, 20)];
+        detail = [[UILabel alloc]initWithFrame:CGRectMake(70, 32, 150, 10)];
         [self.contentView addSubview:detail];
+        detail.font = [UIFont fontWithName:@"Arial" size:12];
+        detail.textColor = [UIColor colorWithRed:120.0/255.0 green:120.0/255.0 blue:120.0/255.0 alpha:1.0];
+        //detail.textAlignment = NSTextAlignmentCenter;
         
-        price = [[UILabel alloc]initWithFrame:CGRectMake(120, 0, 50, 20)];
+        price = [[UILabel alloc]initWithFrame:CGRectMake(70, 42, 150, 25)];
         [self.contentView addSubview:price];
+        price.font = [UIFont fontWithName:@"Arial" size:18];
+        price.textColor = [UIColor colorWithRed:0/255.0 green:201.0/255.0 blue:177.0/255.0 alpha:1.0];
+        //price.textAlignment = NSTextAlignmentCenter;
         
-        hadSaled = [[UILabel alloc]initWithFrame:CGRectMake(60, 40, 50, 20)];
+        hadSaled = [[UILabel alloc]initWithFrame:CGRectMake(size.width - 100, 25, 150, 20)];
         [self.contentView addSubview:hadSaled];
+        hadSaled.font = [UIFont fontWithName:@"Arial" size:12];
+        hadSaled.textAlignment = NSTextAlignmentRight;
+        hadSaled.textColor = [UIColor colorWithRed:120.0/255.0 green:120.0/255.0 blue:120.0/255.0 alpha:1.0];
         
-        distance = [[UILabel alloc]initWithFrame:CGRectMake(120, 20, 50, 20)];
+        distance = [[UILabel alloc]initWithFrame:CGRectMake(size.width - 100, 45, 150, 25)];
         [self.contentView addSubview:distance];
+        distance.font = [UIFont fontWithName:@"Arial" size:12];
+        distance.textAlignment = NSTextAlignmentRight;
+        distance.textColor = [UIColor colorWithRed:120.0/255.0 green:120.0/255.0 blue:120.0/255.0 alpha:1.0];
         
-        imageName = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 60, 60)];
+        imageName = [[UIImageView alloc]initWithFrame:CGRectMake(5, 5, 60, 60)];
         [self.contentView addSubview:imageName];
         
     }

@@ -14,4 +14,5 @@
 @property (nonatomic, strong) UITableView *table;
 @property (nonatomic, strong) NSMutableArray *DataArray;
 
+
 @end
